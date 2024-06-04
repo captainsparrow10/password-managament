@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "74660068045",
+    "project_id": "password-managment-4de8f",
+    "storage_bucket": "password-managment-4de8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74660068045:android:483b3770a786ab44034784",
+        "android_client_info": {
+          "package_name": "com.desarrolo6.keepyourkeys"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB21OVjIZeMfYFYmZVeSFQ6DXtoge72wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

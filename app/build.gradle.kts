@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -29,10 +30,11 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+
 }
 
 dependencies {
-
+    implementation(platform("com.google.firebase:firebase-bom:33.1.0"))
     implementation(libs.appcompat)
     implementation(libs.material)
     testImplementation(libs.junit)
